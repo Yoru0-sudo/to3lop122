@@ -1,0 +1,58 @@
+
+.banner {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 220px;  /* Hoặc điều chỉnh theo nhu cầu */
+    background: url('banner.jpg') no-repeat center/cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 220px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 25%;
+  overflow: auto;
+  	
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.content {
+    margin-left: 270px; /* Để nội dung không bị che */
+    padding: 20px;
+}
+
+section {
+    height: 250vh; /* Mỗi phần chiếm cả màn hình */
+    padding: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.sidebar {
+    position: sticky;
+    top: 0; /* Khi cuộn, nó dính trên cùng */
+    width: 220px;
+    height: 25vh; /* Chiều cao toàn màn hình */
+    background: white;
+    padding: 0;
+}
+p {color: white;font-size: 20px ;font-family: Arial}
+h2 {color: white; font-family: Times New Roman}
